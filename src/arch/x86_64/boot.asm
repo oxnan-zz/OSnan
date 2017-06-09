@@ -151,7 +151,7 @@ stack_bottom:
     resb 64
 stack_top:
 
-
+section .rodata
 gdt64:
     dq 0 ; zero entry
 .code: equ $ - gdt64 ; new
